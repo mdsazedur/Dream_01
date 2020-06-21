@@ -1,0 +1,93 @@
+header{
+	background-color: white;
+	overflow: hidden;
+}
+.logo{
+	width: 25%;
+	float: left;
+	margin-top: 8px;
+}
+.logo_img{
+	float: left;
+}
+.logo_img img{
+	width: 100%;
+}
+.logo_title{
+	float: left;
+}
+.logo_title h1{
+	margin-top: 10px;
+}
+.menu{
+	margin-top: 2px;
+    width: 73%;
+    float: right;
+}
+.menu ul{
+	list-style-type: none;
+}
+.menu ul li{
+	float: left;
+	padding: 10px;
+	margin: 2px 35px;
+}
+.menu ul li a{
+	text-decoration: none;
+	display: inline-block;
+	text-transform: uppercase;
+	color: black;
+}
+.menu ul li:first child a{
+	margin-left: 0;
+}
+/*banner start here*/
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+    padding-top: 100px;
+	padding-bottom: 250px;
+}
+.content{
+	width: 25%;
+	color: rgba(0,4,1,0.5);
+	padding: 30px;
+	margin-top: 75px;
+	/*border: 1px solid red;*/
+	/*color: #000000;*/
+	/*opacity: 0.3;*/
+}
+.content h1{
+	color: white;
+	font-size: 40px;
+	margin-left: 20px;
+	margin-bottom: 0px;
+    margin-top: 0px;
+    text-transform: uppercase;
+
+}
+.content p{
+	margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: white;
+}
+.content button{
+	width: 120px;
+	height: 25px;
+	margin-left: 15px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: .4s;
+}
+.content button:focus{
+	outline: 0;
+}
+.content button:hover{
+	color: red;
+}
